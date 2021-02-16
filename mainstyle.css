@@ -1,0 +1,149 @@
+body {
+	background-color: black; 
+	color: white; 
+	font-family: monospace;
+	cursor: default;
+	margin: 0px;
+	padding: 0px;
+}
+a {
+	color: white; 
+	font-weight: bold;
+}
+#container {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+/*colored glitch blocks*/
+#blue {
+	background-color: blue; 
+	height: 20px; 
+	width: 100%;
+	top: 24%;
+}
+#blue2 {
+	background-color: blue; 
+	width: 50%; 
+	height: 10px;
+	top: 30%;
+}
+#blue3 {
+	background-color: blue;
+	height: 20px;
+	width: 100%;
+}
+#blue4 {
+	background-color: blue;
+	height: 30px;
+	width: 60%;
+	top: 97%;
+	left: 26%;
+}
+#red {
+	background-color: red; 
+	height: 26px; 
+	width: 50%; 
+	top: 9%;
+	right: 5%;
+}
+#red2 {
+	background-color: red; 
+	width: 100%; 
+	height: 30px;
+}
+#red3 {
+	background-color: red;
+	height: 25px;
+	width: 10%;
+	top: 54%;
+}
+#red4 {
+	background-color: red;
+	height: 6px;
+	width: 70%;
+	top: 90%;
+	right: 10%;
+}
+#green {
+	background-color: rgb(57,225,20);
+	height: 10px; 
+	width: 100%; 
+	left: 0px; 
+	top: 55px;
+}
+#green2 {
+	background-color: rgb(57,225,20); 
+	height: 35px; 
+	width: 20%;  
+	left: 15%; 
+	top: 28%;
+}
+#green3 {
+	background-color: rgb(57,225,20);
+	height: 10px;
+	width: 70%;
+	top: 73%;
+}
+#yellow {
+	background-color: yellow; 
+	height: 5px;  
+	top: 90px; 
+	width: 100%; 
+	left: 0px;
+}
+#yellow2 {
+	background-color: yellow;
+	height: 50px;
+	width: 26%;
+	top: 40%;
+}
+#yellow3 {
+	background-color: yellow;
+	height: 10px;
+	width: 50%;
+	top: 80%;
+	left: 40%;
+}
+
+#blue, #blue2, #blue3, #blue4, #yellow, #yellow2, #yellow3, #green, #green2, #green3, #red, #red2, #red3, #red4 {
+	position: fixed;
+}
+
+/*the divs containing entries*/
+#head1, #head2, #head3, #head4 {
+	font-size: 20px;
+}
+#entry2 {
+	margin-left: 25%;
+}
+#entry4 {
+	margin-left: 50%;
+}
+
+@media screen and (max-width: 600px) {
+	body {
+		background: white; 
+		color: black; 
+	}
+	#blue, #blue2, #blue3, #blue4 {
+		background-color: rgb(72,72,72);
+	}
+	#yellow, #yellow2, #yellow3 {
+		background-color: gainsboro;
+	}
+	#green, #green2, #green3 {
+		background-color: silver;
+	}
+	#red, #red2, #red3, #red4 {
+		background-color: gray; 
+	}
+	a {
+		color: black;
+	}
+}
+
+
