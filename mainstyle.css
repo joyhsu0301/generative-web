@@ -115,7 +115,7 @@ a {
 }
 
 /*the divs containing entries*/
-#head1, #head2, #head3, #head4, #head5, #head6, #head7, #head8, #head9, #head10, #head11 {
+#head1, #head2, #head3, #head4, #head5, #head6, #head7, #head8, #head9, #head10, #head11, #head12 {
 	font-size: 30px;
 }
 #entry2 {
@@ -132,6 +132,9 @@ a {
 }
 #entry10 {
 	margin-left: 15%; 
+}
+#entry12 {
+	margin-left: 35%; 
 }
 
 @media screen and (max-width: 600px) {
